@@ -1,0 +1,156 @@
+.products {
+  width: 1140px;
+  text-align: center;
+  margin-top: 100px;
+}
+.products a {
+  font-family: PoppinsBold;
+  font-size: 30px;
+  color: #000000;
+}
+.artistLeft {
+  width: 100%;
+  text-align: left;
+  margin-top: 40px;
+}
+.artistLeft p {
+  font-size: 18px;
+  font-family: Poppins;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#shrt {
+  height: 40px;
+  width: 180px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-family: Lobster;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#shrt:hover {
+  background-color: yellow;
+}
+.artistArea {
+  display: flex;
+  justify-content: space-between;
+}
+.option a {
+  font-family: Poppins;
+  font-size: 18px;
+}
+.option {
+  display: none;
+}
+.artistRightSide {
+  width: 200px;
+  height: 200px;
+
+  cursor: pointer;
+}
+
+.artistRightSide:hover .option {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  z-index: 44;
+  background: white;
+}
+.option a {
+  text-decoration: none;
+  margin-top: 10px;
+}
+.option a:hover {
+  text-decoration: underline;
+}
+.fistLine {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -50px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.fistLine img {
+  width: 350px;
+  height: 200px;
+  z-index: -22;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#show_more {
+  height: 40px;
+  width: 180px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-family: Lobster;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 950px;
+}
+
+@media (max-width: 768px) {
+  .products {
+    width: 350px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .fistLine {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .fistLine img {
+    width: 350px;
+    height: 244px;
+    z-index: -22;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px 0px;
+  }
+  #show_more {
+    margin-left: 0;
+  }
+  .products a {
+    font-family: PoppinsBold;
+    font-size: 24px;
+    color: #000000;
+  }
+  .artistLeft p {
+    font-size: 14px;
+    font-family: Poppins;
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+  .artistLeft {
+    width: 50%;
+    text-align: left;
+    margin-top: 40px;
+  }
+  #shrt {
+    height: 36px;
+    width: 136px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: Lobster;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 39px;
+    margin-left: 42px;
+  }
+}

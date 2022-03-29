@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Lobster;
+  src: url('../../../fonts/Lobster/Lobster-Regular.ttf');
+}
+@font-face {
+  font-family: Poppins;
+  src: url('../../../fonts/Poppins/Poppins-Regular.ttf');
+}
+.navbar {
+  width: 1140px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  width: 150px;
+}
+#connectWalletButton {
+  height: 60px;
+  width: 200px;
+  font-family: Lobster;
+  background: transparent;
+  font-size: 24px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#connectWalletButton:hover {
+  background: black;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #logo {
+    width: 108px;
+  }
+  #connectWalletButton {
+    height: 44px;
+    width: 155px;
+    font-family: Lobster;
+    background: transparent;
+    font-size: 19px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+}

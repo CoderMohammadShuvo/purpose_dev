@@ -1,0 +1,65 @@
+@font-face {
+  font-family: PoppinsBold;
+  src: url('../../../fonts/Poppins/Poppins-Bold.ttf');
+}
+.productSection {
+  width: 1140px;
+}
+.me {
+  font-family: Lobster;
+}
+.heroSection {
+  display: flex;
+}
+.leftSide {
+  width: 50%;
+  font-family: Poppins;
+}
+.rightSide {
+  width: 50%;
+}
+.rightSide img {
+  width: 500px;
+  height: 250px;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+.leftSide h1 {
+  font-size: 50px;
+  font-family: PoppinsBold;
+}
+.leftSide p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .productSection {
+    width: 350px;
+  }
+
+  .heroSection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .leftSide {
+    width: 100%;
+    font-family: Poppins;
+  }
+  .rightSide {
+    width: 100%;
+  }
+  .rightSide img {
+    width: 350px;
+    height: 250px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .leftSide h1 {
+    font-size: 43px;
+    font-family: PoppinsBold;
+  }
+  .leftSide p {
+    font-size: 14px;
+  }
+}

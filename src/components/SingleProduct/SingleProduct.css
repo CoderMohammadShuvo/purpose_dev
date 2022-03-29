@@ -1,0 +1,50 @@
+.signleProduct {
+  width: 1140px;
+  margin-bottom: 0px;
+}
+#tw {
+  font-family: Lobster;
+}
+.sol {
+  font-size: 23px;
+  font-family: PoppinsBold;
+}
+.donate {
+  height: 40px;
+  width: 100px;
+  background: black;
+  font-family: Lobster;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.bid {
+  height: 40px;
+  width: 80px;
+  background: black;
+  font-family: Lobster;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.signleProduct {
+  display: flex;
+}
+#firstImage {
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .signleProduct {
+    width: 350px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+}
